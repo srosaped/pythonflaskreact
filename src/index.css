@@ -11,3 +11,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-whitenote{
+  background-color:rgb(237,200,0);
+  color:black;
+}
+
+.bg-whitenote:hover{
+  background-color:rgb(179, 152, 0);
+  color:white;
+}
+
+#formArea{
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0px;
+  top:0px;
+  background-color:rgba(0,0,0,0.5);
+  display:none;
+}
+
+form{
+  text-align:right;
+}
+
+input{
+  margin-bottom:5px;
+}
+
+.formularioclientes{
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left:-570px;
+  margin-top:-224px;
+  z-index:3;
+}
+
+.formularioutilizadores{
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left:-570px;
+  margin-top:-343.30px;
+  z-index:3;
+}
+
+.formulariofornecedores{
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left:-570px;
+  margin-top:-254.60px;
+  z-index:3;
+}
+
+.formularioprodutos{
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left:-570px;
+  margin-top:-247.60px;
+  z-index:3;
+}
